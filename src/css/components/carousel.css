@@ -57,3 +57,20 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   width: 100%;
   height: auto;
 }
+
+.liste__container{
+  margin-top: -30px;
+}
+
+.liste__item{
+  list-style-type: none;
+  padding-top: 20px;
+}
+
+.liste__item a{
+  color: black;
+}
+
+.transition__para{
+  margin: 50px 20px;
+}
