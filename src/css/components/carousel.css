@@ -25,10 +25,8 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   justify-content: center; /* Centre les éléments enfants horizontalement - https://developer.mozilla.org/fr/docs/Web/CSS/justify-content */
   margin: 16px 0; /* Marge de 16px en haut et en bas - https://developer.mozilla.org/fr/docs/Web/CSS/margin */
   position: absolute;
-  top: 45%;
   left: 0;
   right: 0;
-
 }
 .carousel__button {
   width: 50px; /* Largeur du bouton 50px - https://developer.mozilla.org/fr/docs/Web/CSS/width */
@@ -65,8 +63,10 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
 
 .carousel__item img {
   display: block; /* Affiche l'image comme un bloc - https://developer.mozilla.org/fr/docs/Web/CSS/display */
-  width: 100%;
-  height: auto;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
 .liste__container{
